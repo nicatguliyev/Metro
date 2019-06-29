@@ -15,7 +15,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        if(UserDefaults.standard.string(forKey: "token") != nil){
+            
+            self.window = UIWindow(frame: UIScreen.main.bounds)
+            self.window?.frame.size.height = UIScreen.main.bounds.size.height
+            let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let exampleViewController: AppealNavController = mainStoryboard.instantiateViewController(withIdentifier: "AppealNavController") as! AppealNavController
+            
+            self.window?.rootViewController = exampleViewController
+            
+            self.window?.makeKeyAndVisible()
+            
+        }
+        
         return true
     }
 

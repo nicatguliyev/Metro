@@ -7,21 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BAA9ED5259C02A753943C54E /* Pods_Metro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C00035348EA983E74C93A0D1 /* Pods_Metro.framework */; };
 		CDA3FA8F2280B68A00C995F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA3FA8E2280B68A00C995F6 /* AppDelegate.swift */; };
-		CDA3FA912280B68A00C995F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA3FA902280B68A00C995F6 /* ViewController.swift */; };
 		CDA3FA942280B68A00C995F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA3FA922280B68A00C995F6 /* Main.storyboard */; };
 		CDA3FA962280B68C00C995F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA3FA952280B68C00C995F6 /* Assets.xcassets */; };
 		CDA3FA992280B68C00C995F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA3FA972280B68C00C995F6 /* LaunchScreen.storyboard */; };
+		CDA3FAA12280B7EE00C995F6 /* FirstScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA3FAA02280B7EE00C995F6 /* FirstScreenController.swift */; };
+		CDA3FAA42280B96C00C995F6 /* metroImg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDA3FAA32280B96C00C995F6 /* metroImg.jpg */; };
+		CDA3FAA622834F0C00C995F6 /* logo2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDA3FAA522834F0B00C995F6 /* logo2x.png */; };
+		CDA3FAA82285ED5C00C995F6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA3FAA72285ED5C00C995F6 /* RegisterViewController.swift */; };
+		CDA3FAAA2285EE4900C995F6 /* backArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CDA3FAA92285EE4900C995F6 /* backArrow.png */; };
+		CDA3FAAC22869D6900C995F6 /* RepearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA3FAAB22869D6900C995F6 /* RepearViewController.swift */; };
+		CDA3FAAE228746F200C995F6 /* metroImg.png in Resources */ = {isa = PBXBuildFile; fileRef = CDA3FAAD228746F200C995F6 /* metroImg.png */; };
+		CDA3FAB022874C9000C995F6 /* letter.png in Resources */ = {isa = PBXBuildFile; fileRef = CDA3FAAF22874C9000C995F6 /* letter.png */; };
+		CDA3FAB222874CED00C995F6 /* AppealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA3FAB122874CED00C995F6 /* AppealViewController.swift */; };
+		CDA3FAB42287685000C995F6 /* expandArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CDA3FAB32287685000C995F6 /* expandArrow.png */; };
+		CDA3FAB62289D50500C995F6 /* StationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA3FAB52289D50400C995F6 /* StationCell.swift */; };
+		CDA3FAB82289D58300C995F6 /* StationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA3FAB72289D58300C995F6 /* StationController.swift */; };
+		CDA3FABA228A00BA00C995F6 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA3FAB9228A00BA00C995F6 /* ListViewController.swift */; };
+		CDA3FABD228A06A400C995F6 /* AppealViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA3FABB228A06A400C995F6 /* AppealViewCell.swift */; };
+		CDA3FABE228A06A400C995F6 /* AppealViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDA3FABC228A06A400C995F6 /* AppealViewCell.xib */; };
+		CDA3FAC0228A0CC600C995F6 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = CDA3FABF228A0CC500C995F6 /* clock.png */; };
+		CDDC00DC228AA636003EFFD0 /* InformationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC00DB228AA636003EFFD0 /* InformationController.swift */; };
+		CDDC00DE228AD3CC003EFFD0 /* EmptyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDDC00DD228AD3CC003EFFD0 /* EmptyView.xib */; };
+		CDDC00E0228AD403003EFFD0 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC00DF228AD403003EFFD0 /* EmptyView.swift */; };
+		CDDC00E2228AE6EC003EFFD0 /* RepearNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC00E1228AE6EC003EFFD0 /* RepearNavigationController.swift */; };
+		CDDC00E4228B31C0003EFFD0 /* CodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC00E3228B31C0003EFFD0 /* CodeViewController.swift */; };
+		CDDC00E6228B3723003EFFD0 /* WaitView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDDC00E5228B3723003EFFD0 /* WaitView.xib */; };
+		CDDC00E8228B388F003EFFD0 /* WaitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC00E7228B388F003EFFD0 /* WaitView.swift */; };
+		CDDC00EA228B733A003EFFD0 /* AppealNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC00E9228B733A003EFFD0 /* AppealNavController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		CDAB3B472290A67500C6580F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5A45B9579FFB133919C93B79 /* Pods-Metro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Metro/Pods-Metro.debug.xcconfig"; sourceTree = "<group>"; };
+		91243A4957061B2968DDF378 /* Pods-Metro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metro.release.xcconfig"; path = "Pods/Target Support Files/Pods-Metro/Pods-Metro.release.xcconfig"; sourceTree = "<group>"; };
+		C00035348EA983E74C93A0D1 /* Pods_Metro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Metro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA3FA8B2280B68A00C995F6 /* Metro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Metro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA3FA8E2280B68A00C995F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDA3FA902280B68A00C995F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CDA3FA932280B68A00C995F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDA3FA952280B68C00C995F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDA3FA982280B68C00C995F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDA3FA9A2280B68C00C995F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA3FAA02280B7EE00C995F6 /* FirstScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenController.swift; sourceTree = "<group>"; };
+		CDA3FAA32280B96C00C995F6 /* metroImg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = metroImg.jpg; sourceTree = "<group>"; };
+		CDA3FAA522834F0B00C995F6 /* logo2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2x.png; sourceTree = "<group>"; };
+		CDA3FAA72285ED5C00C995F6 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		CDA3FAA92285EE4900C995F6 /* backArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backArrow.png; sourceTree = "<group>"; };
+		CDA3FAAB22869D6900C995F6 /* RepearViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepearViewController.swift; sourceTree = "<group>"; };
+		CDA3FAAD228746F200C995F6 /* metroImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metroImg.png; sourceTree = "<group>"; };
+		CDA3FAAF22874C9000C995F6 /* letter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = letter.png; sourceTree = "<group>"; };
+		CDA3FAB122874CED00C995F6 /* AppealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppealViewController.swift; sourceTree = "<group>"; };
+		CDA3FAB32287685000C995F6 /* expandArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = expandArrow.png; sourceTree = "<group>"; };
+		CDA3FAB52289D50400C995F6 /* StationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationCell.swift; sourceTree = "<group>"; };
+		CDA3FAB72289D58300C995F6 /* StationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationController.swift; sourceTree = "<group>"; };
+		CDA3FAB9228A00BA00C995F6 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		CDA3FABB228A06A400C995F6 /* AppealViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppealViewCell.swift; sourceTree = "<group>"; };
+		CDA3FABC228A06A400C995F6 /* AppealViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppealViewCell.xib; sourceTree = "<group>"; };
+		CDA3FABF228A0CC500C995F6 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		CDDC00DB228AA636003EFFD0 /* InformationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationController.swift; sourceTree = "<group>"; };
+		CDDC00DD228AD3CC003EFFD0 /* EmptyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyView.xib; sourceTree = "<group>"; };
+		CDDC00DF228AD403003EFFD0 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		CDDC00E1228AE6EC003EFFD0 /* RepearNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepearNavigationController.swift; sourceTree = "<group>"; };
+		CDDC00E3228B31C0003EFFD0 /* CodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewController.swift; sourceTree = "<group>"; };
+		CDDC00E5228B3723003EFFD0 /* WaitView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WaitView.xib; sourceTree = "<group>"; };
+		CDDC00E7228B388F003EFFD0 /* WaitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitView.swift; sourceTree = "<group>"; };
+		CDDC00E9228B733A003EFFD0 /* AppealNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppealNavController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +92,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAA9ED5259C02A753943C54E /* Pods_Metro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B0D0E5BAB47F7306F15A502 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A45B9579FFB133919C93B79 /* Pods-Metro.debug.xcconfig */,
+				91243A4957061B2968DDF378 /* Pods-Metro.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		81246F3543462345992A8FFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C00035348EA983E74C93A0D1 /* Pods_Metro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CDA3FA822280B68900C995F6 = {
 			isa = PBXGroup;
 			children = (
 				CDA3FA8D2280B68A00C995F6 /* Metro */,
 				CDA3FA8C2280B68A00C995F6 /* Products */,
+				0B0D0E5BAB47F7306F15A502 /* Pods */,
+				81246F3543462345992A8FFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +137,45 @@
 		CDA3FA8D2280B68A00C995F6 /* Metro */ = {
 			isa = PBXGroup;
 			children = (
+				CDA3FAA22280B90900C995F6 /* Images */,
 				CDA3FA8E2280B68A00C995F6 /* AppDelegate.swift */,
-				CDA3FA902280B68A00C995F6 /* ViewController.swift */,
 				CDA3FA922280B68A00C995F6 /* Main.storyboard */,
 				CDA3FA952280B68C00C995F6 /* Assets.xcassets */,
 				CDA3FA972280B68C00C995F6 /* LaunchScreen.storyboard */,
 				CDA3FA9A2280B68C00C995F6 /* Info.plist */,
+				CDA3FAA02280B7EE00C995F6 /* FirstScreenController.swift */,
+				CDA3FAA72285ED5C00C995F6 /* RegisterViewController.swift */,
+				CDA3FAAB22869D6900C995F6 /* RepearViewController.swift */,
+				CDA3FAB122874CED00C995F6 /* AppealViewController.swift */,
+				CDA3FAB52289D50400C995F6 /* StationCell.swift */,
+				CDA3FAB72289D58300C995F6 /* StationController.swift */,
+				CDA3FAB9228A00BA00C995F6 /* ListViewController.swift */,
+				CDA3FABB228A06A400C995F6 /* AppealViewCell.swift */,
+				CDA3FABC228A06A400C995F6 /* AppealViewCell.xib */,
+				CDDC00DB228AA636003EFFD0 /* InformationController.swift */,
+				CDDC00DD228AD3CC003EFFD0 /* EmptyView.xib */,
+				CDDC00DF228AD403003EFFD0 /* EmptyView.swift */,
+				CDDC00E1228AE6EC003EFFD0 /* RepearNavigationController.swift */,
+				CDDC00E3228B31C0003EFFD0 /* CodeViewController.swift */,
+				CDDC00E5228B3723003EFFD0 /* WaitView.xib */,
+				CDDC00E7228B388F003EFFD0 /* WaitView.swift */,
+				CDDC00E9228B733A003EFFD0 /* AppealNavController.swift */,
 			);
 			path = Metro;
+			sourceTree = "<group>";
+		};
+		CDA3FAA22280B90900C995F6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CDA3FABF228A0CC500C995F6 /* clock.png */,
+				CDA3FAA522834F0B00C995F6 /* logo2x.png */,
+				CDA3FAAF22874C9000C995F6 /* letter.png */,
+				CDA3FAB32287685000C995F6 /* expandArrow.png */,
+				CDA3FAAD228746F200C995F6 /* metroImg.png */,
+				CDA3FAA92285EE4900C995F6 /* backArrow.png */,
+				CDA3FAA32280B96C00C995F6 /* metroImg.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDA3FA9D2280B68C00C995F6 /* Build configuration list for PBXNativeTarget "Metro" */;
 			buildPhases = (
+				C70EA50444EBFC8F8B67906F /* [CP] Check Pods Manifest.lock */,
 				CDA3FA872280B68900C995F6 /* Sources */,
 				CDA3FA882280B68900C995F6 /* Frameworks */,
 				CDA3FA892280B68900C995F6 /* Resources */,
+				C870DC282D89E741BE8B7193 /* [CP] Embed Pods Frameworks */,
+				CDAB3B472290A67500C6580F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,21 +239,91 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDA3FAAA2285EE4900C995F6 /* backArrow.png in Resources */,
 				CDA3FA992280B68C00C995F6 /* LaunchScreen.storyboard in Resources */,
 				CDA3FA962280B68C00C995F6 /* Assets.xcassets in Resources */,
+				CDDC00E6228B3723003EFFD0 /* WaitView.xib in Resources */,
+				CDA3FABE228A06A400C995F6 /* AppealViewCell.xib in Resources */,
+				CDDC00DE228AD3CC003EFFD0 /* EmptyView.xib in Resources */,
+				CDA3FAA622834F0C00C995F6 /* logo2x.png in Resources */,
+				CDA3FAB42287685000C995F6 /* expandArrow.png in Resources */,
+				CDA3FAAE228746F200C995F6 /* metroImg.png in Resources */,
+				CDA3FAC0228A0CC600C995F6 /* clock.png in Resources */,
+				CDA3FAB022874C9000C995F6 /* letter.png in Resources */,
 				CDA3FA942280B68A00C995F6 /* Main.storyboard in Resources */,
+				CDA3FAA42280B96C00C995F6 /* metroImg.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C70EA50444EBFC8F8B67906F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Metro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C870DC282D89E741BE8B7193 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Metro/Pods-Metro-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Metro/Pods-Metro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CDA3FA872280B68900C995F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDA3FA912280B68A00C995F6 /* ViewController.swift in Sources */,
+				CDDC00E2228AE6EC003EFFD0 /* RepearNavigationController.swift in Sources */,
+				CDA3FAA82285ED5C00C995F6 /* RegisterViewController.swift in Sources */,
+				CDA3FABD228A06A400C995F6 /* AppealViewCell.swift in Sources */,
+				CDDC00EA228B733A003EFFD0 /* AppealNavController.swift in Sources */,
+				CDDC00E0228AD403003EFFD0 /* EmptyView.swift in Sources */,
+				CDA3FAB222874CED00C995F6 /* AppealViewController.swift in Sources */,
+				CDA3FAB82289D58300C995F6 /* StationController.swift in Sources */,
+				CDDC00DC228AA636003EFFD0 /* InformationController.swift in Sources */,
+				CDA3FAB62289D50500C995F6 /* StationCell.swift in Sources */,
+				CDDC00E4228B31C0003EFFD0 /* CodeViewController.swift in Sources */,
+				CDA3FAA12280B7EE00C995F6 /* FirstScreenController.swift in Sources */,
 				CDA3FA8F2280B68A00C995F6 /* AppDelegate.swift in Sources */,
+				CDDC00E8228B388F003EFFD0 /* WaitView.swift in Sources */,
+				CDA3FABA228A00BA00C995F6 /* ListViewController.swift in Sources */,
+				CDA3FAAC22869D6900C995F6 /* RepearViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,10 +467,15 @@
 		};
 		CDA3FA9E2280B68C00C995F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A45B9579FFB133919C93B79 /* Pods-Metro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M9JC34472J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Metro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,10 +490,15 @@
 		};
 		CDA3FA9F2280B68C00C995F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91243A4957061B2968DDF378 /* Pods-Metro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M9JC34472J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Metro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
